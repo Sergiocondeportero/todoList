@@ -5,28 +5,28 @@ body {
   font-size: 16px;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.5;
-  background-color: rgb(214, 214, 214); /* Color de fondo gris claro */
-  color: white; /* Color del texto blanco */
+  background-color: rgb(214, 214, 214); 
+  color: white; 
 }
 
 /* Estilo para el título principal */
 h1 {
-  text-align: center; /* Centra el texto */
-  color: rgb(0, 0, 0); /* Color del texto negro */
+  text-align: center; 
+  color: rgb(0, 0, 0); 
 }
 
 /* Estilo para el contenedor principal */
 .container {
   margin-top: 30px;
   margin-bottom: 30px;
-  width: 50%; /* Ajusta el ancho del contenedor */
-  max-width: 800px; /* Establece un ancho máximo */
+  width: 50%; 
+  max-width: 800px; 
   margin-left: auto;
   margin-right: auto;
-  background-color: white; /* Fondo blanco para el contenedor */
-  padding: 30px; /* Espaciado interno */
-  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para darle profundidad */
-  border-radius: 10px; /* Bordes redondeados */
+  background-color: white; 
+  padding: 30px; 
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2); 
+  border-radius: 10px; 
 }
 
 /* Estilo para el área de búsqueda */
@@ -38,156 +38,156 @@ h1 {
 
 /* Estilo para el formulario */
 form {
-  display: flex; /* Usa flexbox para alinear los elementos */
-  align-items: center; /* Alinea verticalmente los elementos */
+  display: flex; 
+  align-items: center; 
 }
 
 /* Estilo para el campo de entrada */
 input {
   padding: 15px 10px;
   outline: none;
-  width: calc(100% - 120px); /* Ajusta el ancho para dejar espacio al botón */
-  border-radius: 5px; /* Bordes redondeados */
-  border: 1px solid #ccc; /* Borde ligero */
+  width: calc(100% - 120px);
+  border-radius: 5px; 
+  border: 1px solid #ccc; 
 }
 
 /* Estilo para el contenedor de la lista de tareas */
 .li-container {
-  background-color: white; /* Fondo blanco para la lista */
+  background-color: white; 
   width: 100%;
-  color: darkslategray; /* Color del texto gris oscuro */
+  color: darkslategray; 
   margin-top: 20px;
-  border-radius: 10px; /* Bordes redondeados */
-  padding: 10px; /* Espaciado interno */
+  border-radius: 10px; 
+  padding: 10px;
 }
 
 /* Estilo para las listas no ordenadas */
 ul {
-  padding: 0; /* Elimina el padding por defecto */
-  margin: 0; /* Elimina el margen por defecto */
-  list-style: none; /* Elimina los puntos de la lista */
+  padding: 0; 
+  margin: 0; 
+  list-style: none; 
 }
 
 /* Estilo para los elementos de la lista */
 li {
-  background-color: lightgray; /* Fondo gris claro */
-  border-radius: 10px; /* Bordes redondeados */
-  margin-top: 15px; /* Espaciado entre los elementos de la lista */
-  display: flex; /* Usa flexbox para alinear los elementos */
-  align-items: center; /* Alinea verticalmente los elementos */
-  padding: 10px; /* Espaciado interno */
-  position: relative; /* Posicionamiento relativo para los botones */
+  background-color: lightgray; 
+  border-radius: 10px;
+  margin-top: 15px; 
+  display: flex; 
+  align-items: center; 
+  padding: 10px; 
+  position: relative; 
 }
 
 /* Estilo para el texto dentro de los elementos de la lista */
 li p {
-  margin: 0; /* Elimina el margen por defecto */
-  padding: 0; /* Elimina el padding por defecto */
-  width: calc(100% - 120px); /* Ajusta el ancho para dejar espacio al botón */
-  overflow: hidden; /* Oculta el desbordamiento de texto */
-  text-overflow: ellipsis; /* Añade puntos suspensivos para el texto desbordado */
+  margin: 0; 
+  padding: 0; 
+  width: calc(100% - 120px);
+  overflow: hidden; 
+  text-overflow: ellipsis; 
 }
 
 /* Estilo para el botón de añadir tarea */
 .btn-add {
-  padding: 15px 20px; /* Espaciado interno */
-  border: none; /* Elimina el borde por defecto */
-  color: white; /* Color del texto blanco */
-  font-family: fantasy; /* Fuente decorativa */
-  background-color: teal; /* Color de fondo teal */
-  font-size: 1.4rem; /* Tamaño de la fuente */
-  outline: none; /* Elimina el contorno por defecto */
-  border-radius: 5px; /* Bordes redondeados */
-  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
-  margin-left: 10px; /* Espaciado a la izquierda del botón */
+  padding: 15px 20px; 
+  border: none; 
+  color: white;
+  font-family: fantasy; 
+  background-color: teal; 
+  font-size: 1.4rem; 
+  outline: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  margin-left: 10px; 
 }
 
 /* Efecto hover para el botón de añadir tarea */
 .btn-add:hover {
-  background-color: darkcyan; /* Cambia el color de fondo al pasar el cursor */
+  background-color: darkcyan; 
 }
 
 /* Estilo para el mensaje cuando no hay tareas pendientes */
 .empty {
-  color: darkslategrey; /* Color del texto gris oscuro */
-  text-align: center; /* Centra el texto */
-  font-style: italic; /* Estilo de fuente en cursiva */
+  color: darkslategrey; 
+  text-align: center; 
+  font-style: italic; 
 }
 
 /* Estilo para el botón de completar tarea */
 .btn-complete {
-  margin-left: auto; /* Empuja el botón a la derecha */
-  border: none; /* Elimina el borde por defecto */
-  background-color: #4CAF50; /* Color de fondo verde */
-  color: white; /* Color del texto blanco */
-  font-weight: bold; /* Texto en negrita */
-  padding: 5px 10px; /* Espaciado interno */
-  outline: none; /* Elimina el contorno por defecto */
-  border-radius: 5px; /* Bordes redondeados */
-  font-size: 1em; /* Tamaño de la fuente */
-  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+  margin-left: auto; 
+  border: none;
+  background-color: #4CAF50; 
+  color: white; 
+  font-weight: bold; 
+  padding: 5px 10px; 
+  outline: none;  
+  border-radius: 5px; 
+  font-size: 1em;
+  cursor: pointer; 
 }
 
 /* Efecto hover para el botón de completar tarea */
 .btn-complete:hover {
-  background-color: #45a049; /* Cambia el color de fondo al pasar el cursor */
+  background-color: #45a049; 
 }
 
 /* Estilo para el botón de eliminar tarea */
 .btn-delete {
-  margin-left: auto; /* Empuja el botón a la derecha */
-  border: none; /* Elimina el borde por defecto */
-  background-color: #e31746; /* Color de fondo rojo */
-  color: white; /* Color del texto blanco */
-  font-weight: bold; /* Texto en negrita */
-  padding: 5px 10px; /* Espaciado interno */
-  outline: none; /* Elimina el contorno por defecto */
-  border-radius: 5px; /* Bordes redondeados */
-  font-size: 1em; /* Tamaño de la fuente */
-  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+  margin-left: auto; 
+  border: none; 
+  background-color: #e31746; 
+  color: white; 
+  font-weight: bold; 
+  padding: 5px 10px; 
+  outline: none; 
+  border-radius: 5px; 
+  font-size: 1em; 
+  cursor: pointer; 
 }
 
 /* Efecto hover para el botón de eliminar tarea */
 .btn-delete:hover {
-  background-color: darkred; /* Cambia el color de fondo al pasar el cursor */
+  background-color: darkred; 
 }
 
 /* Estilo para el contenedor de tareas completadas */
 .completed-tasks {
-  margin-top: 30px; /* Espaciado superior */
+  margin-top: 30px; 
 }
 
 /* Estilo para la lista de tareas completadas */
 .completed-tasks ul {
-  padding: 0; /* Elimina el padding por defecto */
-  list-style: none; /* Elimina los puntos de la lista */
+  padding: 0; 
+  list-style: none; 
 }
 
 /* Estilo para los elementos de la lista de tareas completadas */
 .completed-tasks li {
-  background-color: #f4f4f4; /* Fondo gris claro */
-  color: darkslategray; /* Color del texto gris oscuro */
-  border: 1px solid #ddd; /* Borde ligero gris */
-  border-radius: 5px; /* Bordes redondeados */
-  padding: 10px; /* Espaciado interno */
-  margin-top: 10px; /* Espaciado superior entre elementos */
+  background-color: #f4f4f4; 
+  color: darkslategray; 
+  border: 1px solid #ddd; 
+  border-radius: 5px; 
+  padding: 10px; 
+  margin-top: 10px; 
 }
 
 /* Estilo para el botón de restaurar tarea */
 .btn-restore {
-  margin-left: auto; /* Empuja el botón a la derecha */
-  border: none; /* Elimina el borde por defecto */
-  background-color: #007bff; /* Color de fondo azul */
-  color: white; /* Color del texto blanco */
-  font-weight: bold; /* Texto en negrita */
-  padding: 5px 10px; /* Espaciado interno */
-  outline: none; /* Elimina el contorno por defecto */
-  border-radius: 5px; /* Bordes redondeados */
-  font-size: 1em; /* Tamaño de la fuente */
-  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+  margin-left: auto; 
+  border: none;
+  background-color: #007bff; 
+  color: white; 
+  font-weight: bold; 
+  padding: 5px 10px; 
+  outline: none; 
+  border-radius: 5px; 
+  font-size: 1em; 
+  cursor: pointer; 
 }
 
 /* Efecto hover para el botón de restaurar tarea */
 .btn-restore:hover {
-  background-color: #0056b3; /* Cambia el color de fondo al pasar el cursor */
+  background-color: #0056b3; 
 }
